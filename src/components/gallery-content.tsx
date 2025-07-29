@@ -159,7 +159,7 @@ export default function GalleryContent() {
           >
             <div className="aspect-square relative overflow-hidden">
               <Image
-                src={picture.thumbnailUrl || "/placeholder.svg"}
+                src={"https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXJsfGVufDB8fDB8fHww"}
                 alt={picture.title}
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"
